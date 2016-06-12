@@ -15984,7 +15984,6 @@ by R. Vogg  15.March.2002</description>
 </class>
 </classes>
 <parts>
-<part name="C3" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
 <part name="U$1" library="frames" deviceset="FRAME_M1" device=""/>
 <part name="IC1" library="microchip" deviceset="PIC18*K50" device="-I/SS" technology="F14"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
@@ -16067,7 +16066,6 @@ by R. Vogg  15.March.2002</description>
 <text x="91.44" y="53.34" size="2.54" layer="97" font="vector" ratio="12">C1 a C3 musi byt blizko IC3</text>
 </plain>
 <instances>
-<instance part="C3" gate="G$1" x="91.44" y="76.2"/>
 <instance part="U$1" gate="G$1" x="0" y="0"/>
 <instance part="IC1" gate="A" x="195.58" y="91.44"/>
 <instance part="GND2" gate="1" x="223.52" y="58.42"/>
@@ -16075,7 +16073,7 @@ by R. Vogg  15.March.2002</description>
 <instance part="VDD1" gate="G$1" x="223.52" y="121.92"/>
 <instance part="GND3" gate="1" x="137.16" y="60.96"/>
 <instance part="GND4" gate="G$1" x="101.6" y="60.96"/>
-<instance part="VCC1" gate="G$1" x="99.06" y="111.76"/>
+<instance part="VCC1" gate="G$1" x="101.6" y="111.76"/>
 <instance part="C4" gate="G$1" x="147.32" y="76.2"/>
 <instance part="X1" gate="A" x="241.3" y="83.82"/>
 <instance part="X1" gate="S" x="243.84" y="76.2"/>
@@ -16252,14 +16250,9 @@ by R. Vogg  15.March.2002</description>
 <wire x1="106.68" y1="93.98" x2="101.6" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="93.98" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="73.66" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="73.66" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
 <junction x="101.6" y="73.66"/>
 <pinref part="GND4" gate="G$1" pin="GNDINT"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="68.58" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="68.58" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="68.58" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
-<junction x="101.6" y="68.58"/>
+<wire x1="101.6" y1="73.66" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="GND2@2"/>
 <pinref part="IC2" gate="A" pin="GND2@1"/>
 </segment>
@@ -16285,13 +16278,9 @@ by R. Vogg  15.March.2002</description>
 </net>
 <net name="VCCINT" class="1">
 <segment>
-<wire x1="99.06" y1="96.52" x2="99.06" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="96.52" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
-<junction x="99.06" y="96.52"/>
+<wire x1="101.6" y1="96.52" x2="101.6" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="96.52" x2="101.6" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="VCC1" gate="G$1" pin="VCCINT"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="78.74" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="96.52" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="VDD2"/>
 </segment>
 <segment>
