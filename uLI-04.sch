@@ -13581,132 +13581,6 @@ Based on the following sources:
 &lt;/ul&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="DO35-10">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-diameter 2 mm, horizontal, grid 10.16 mm</description>
-<wire x1="5.08" y1="0" x2="4.191" y2="0" width="0.508" layer="51"/>
-<wire x1="-5.08" y1="0" x2="-4.191" y2="0" width="0.508" layer="51"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="1.016" x2="2.286" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.286" y1="0.762" x2="-2.032" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.286" y1="-0.762" x2="-2.032" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.032" y1="-1.016" x2="2.286" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.286" y1="-0.762" x2="2.286" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="0.762" x2="-2.286" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.1524" layer="21"/>
-<pad name="C" x="-5.08" y="0" drill="0.8128" shape="long"/>
-<pad name="A" x="5.08" y="0" drill="0.8128" shape="long"/>
-<text x="-2.159" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.159" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.905" y1="-1.016" x2="-1.397" y2="1.016" layer="21"/>
-<rectangle x1="2.286" y1="-0.254" x2="4.191" y2="0.254" layer="21"/>
-<rectangle x1="-4.191" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
-</package>
-<package name="DO35-7">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-diameter 2 mm, horizontal, grid 7.62 mm</description>
-<wire x1="3.81" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
-<wire x1="-3.81" y1="0" x2="-2.921" y2="0" width="0.508" layer="51"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="1.016" x2="2.286" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="2.286" y1="0.762" x2="2.286" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="-1.016" x2="2.286" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="-2.286" y1="0.762" x2="-2.032" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.286" y1="-0.762" x2="-2.032" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="0.762" x2="-2.286" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.1524" layer="21"/>
-<pad name="C" x="-3.81" y="0" drill="0.8128" shape="long"/>
-<pad name="A" x="3.81" y="0" drill="0.8128" shape="long"/>
-<text x="-2.286" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.286" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.905" y1="-1.016" x2="-1.397" y2="1.016" layer="21"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
-<rectangle x1="-2.921" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
-</package>
-<package name="D1206">
-<description>&lt;b&gt;DIODE 1206&lt;/b&gt;
-&lt;br&gt;&lt;br&gt;
-&lt;i&gt;copied from resistor 1206&lt;/i&gt;</description>
-<wire x1="1.2" y1="-0.8128" x2="-1.2" y2="-0.8128" width="0.1524" layer="51"/>
-<wire x1="1.2" y1="0.8128" x2="-1.2" y2="0.8128" width="0.1524" layer="51"/>
-<wire x1="-2.025" y1="1.125" x2="2.025" y2="1.125" width="0.0508" layer="39"/>
-<wire x1="2.025" y1="1.125" x2="2.025" y2="-1.125" width="0.0508" layer="39"/>
-<wire x1="2.025" y1="-1.125" x2="-2.025" y2="-1.125" width="0.0508" layer="39"/>
-<wire x1="-2.025" y1="-1.125" x2="-2.025" y2="1.125" width="0.0508" layer="39"/>
-<smd name="C" x="1.45" y="0" dx="0.9" dy="1.6" layer="1"/>
-<smd name="A" x="-1.45" y="0" dx="0.9" dy="1.6" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27" font="vector" ratio="15">&gt;VALUE</text>
-<rectangle x1="-1.6891" y1="-0.8763" x2="-1.2" y2="0.8763" layer="51"/>
-<rectangle x1="1.2" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
-<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
-<wire x1="-1.47" y1="1.07" x2="-2.14" y2="1.07" width="0.1524" layer="21"/>
-<wire x1="-2.14" y1="1.07" x2="-2.14" y2="-1.07" width="0.1524" layer="21"/>
-<wire x1="1.47" y1="1.07" x2="2.14" y2="1.07" width="0.1524" layer="21"/>
-<wire x1="2.14" y1="1.07" x2="2.14" y2="-1.07" width="0.1524" layer="21"/>
-<wire x1="-1.47" y1="-1.07" x2="-2.14" y2="-1.07" width="0.1524" layer="21"/>
-<wire x1="1.47" y1="-1.07" x2="2.14" y2="-1.07" width="0.1524" layer="21"/>
-<wire x1="-0.381" y1="0.508" x2="-0.381" y2="-0.508" width="0.254" layer="21"/>
-<wire x1="-0.381" y1="-0.508" x2="0.381" y2="0" width="0.254" layer="21"/>
-<wire x1="0.381" y1="0" x2="-0.381" y2="0.508" width="0.254" layer="21"/>
-<wire x1="0.381" y1="0.508" x2="0.381" y2="-0.508" width="0.254" layer="21"/>
-</package>
-<package name="DO35-10_R">
-<wire x1="5.08" y1="0" x2="4.191" y2="0" width="0.508" layer="51"/>
-<wire x1="-5.08" y1="0" x2="-4.191" y2="0" width="0.508" layer="51"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="1.016" x2="2.286" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.286" y1="0.762" x2="-2.032" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.286" y1="-0.762" x2="-2.032" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.032" y1="-1.016" x2="2.286" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.286" y1="-0.762" x2="2.286" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-2.286" y1="0.762" x2="-2.286" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.1524" layer="21"/>
-<pad name="C" x="-5.08" y="0" drill="0.8128"/>
-<pad name="A" x="5.08" y="0" drill="0.8128"/>
-<text x="-2.159" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.159" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.905" y1="-1.016" x2="-1.397" y2="1.016" layer="21"/>
-<rectangle x1="2.286" y1="-0.254" x2="4.191" y2="0.254" layer="21"/>
-<rectangle x1="-4.191" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
-</package>
-<package name="D0805">
-<wire x1="-0.7275" y1="0.635" x2="0.7275" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="-0.7275" y1="-0.635" x2="0.7275" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-1.425" y1="0.95" x2="1.425" y2="0.95" width="0.0508" layer="39"/>
-<wire x1="1.425" y1="0.95" x2="1.425" y2="-0.95" width="0.0508" layer="39"/>
-<wire x1="1.425" y1="-0.95" x2="-1.425" y2="-0.95" width="0.0508" layer="39"/>
-<wire x1="-1.425" y1="-0.95" x2="-1.425" y2="0.95" width="0.0508" layer="39"/>
-<wire x1="0.3175" y1="0.635" x2="0.3175" y2="-0.635" width="0.1524" layer="21"/>
-<smd name="A" x="-0.95" y="0" dx="0.7" dy="1.3" layer="1"/>
-<smd name="K" x="0.95" y="0" dx="0.7" dy="1.3" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25" ratio="15">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27" ratio="15">&gt;VALUE</text>
-<rectangle x1="0.7" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
-<rectangle x1="-1.0668" y1="-0.6985" x2="-0.7" y2="0.7015" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
-</package>
 <package name="SMB">
 <description>&lt;B&gt;DIODE&lt;/B&gt;</description>
 <wire x1="-2.2606" y1="1.905" x2="2.2606" y2="1.905" width="0.1524" layer="21"/>
@@ -13744,60 +13618,6 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1N4148" prefix="D">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-high speed (Philips)</description>
-<gates>
-<gate name="A" symbol="D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="DO35-10" package="DO35-10">
-<connects>
-<connect gate="A" pin="A" pad="A"/>
-<connect gate="A" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="DO35-7" package="DO35-7">
-<connects>
-<connect gate="A" pin="A" pad="A"/>
-<connect gate="A" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-1206" package="D1206">
-<connects>
-<connect gate="A" pin="A" pad="A"/>
-<connect gate="A" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="DO35-10_R" package="DO35-10_R">
-<connects>
-<connect gate="A" pin="A" pad="A"/>
-<connect gate="A" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-0805" package="D0805">
-<connects>
-<connect gate="A" pin="A" pad="A"/>
-<connect gate="A" pin="C" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="S2M" prefix="D">
 <gates>
 <gate name="A" symbol="D" x="0" y="0"/>
@@ -15999,7 +15819,6 @@ by R. Vogg  15.March.2002</description>
 <part name="IC4" library="linear" deviceset="78L*" device="F" technology="05"/>
 <part name="C7" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
 <part name="X1" library="con-cypressindustries" deviceset="MINI-USB_SHIELD4P-" device="USB-SPEC" value="MINI-USB_SHIELD4P-USB-SPEC"/>
-<part name="D1" library="diode" deviceset="1N4148" device="-1206"/>
 <part name="Q1" library="crystal" deviceset="XTAL" device="" value="12.00 MHz"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="22p"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="22p"/>
@@ -16077,7 +15896,6 @@ by R. Vogg  15.March.2002</description>
 <instance part="C4" gate="G$1" x="147.32" y="76.2"/>
 <instance part="X1" gate="A" x="241.3" y="83.82"/>
 <instance part="X1" gate="S" x="243.84" y="76.2"/>
-<instance part="D1" gate="A" x="233.68" y="93.98" rot="MR90"/>
 <instance part="Q1" gate="A" x="190.5" y="137.16"/>
 <instance part="C1" gate="G$1" x="185.42" y="132.08"/>
 <instance part="C2" gate="G$1" x="208.28" y="132.08"/>
@@ -16205,14 +16023,15 @@ by R. Vogg  15.March.2002</description>
 <wire x1="144.78" y1="116.84" x2="223.52" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="78.74" x2="147.32" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="96.52" x2="139.7" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="D1" gate="A" pin="C"/>
 <junction x="223.52" y="109.22"/>
 <wire x1="223.52" y1="109.22" x2="233.68" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="109.22" x2="233.68" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="109.22" x2="233.68" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="VDD1"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="111.76" x2="144.78" y2="116.84" width="0.1524" layer="91"/>
 <junction x="144.78" y="116.84"/>
+<pinref part="X1" gate="A" pin="1"/>
+<wire x1="236.22" y1="88.9" x2="233.68" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PROC_RX" class="0">
@@ -16322,14 +16141,6 @@ by R. Vogg  15.March.2002</description>
 <wire x1="25.4" y1="58.42" x2="27.94" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="J5" gate="A" pin="3"/>
 <wire x1="25.4" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="X1" gate="A" pin="1"/>
-<wire x1="236.22" y1="88.9" x2="233.68" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="88.9" x2="233.68" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="D1" gate="A" pin="A"/>
 </segment>
 </net>
 <net name="XTAL2" class="0">
