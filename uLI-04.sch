@@ -15907,7 +15907,7 @@ by R. Vogg  15.March.2002</description>
 <part name="U$2" library="frames" deviceset="FRAME_M1" device=""/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R1206" value="100k"/>
 <part name="T1" library="transistor-fet" deviceset="IRF7306" device=""/>
-<part name="C10" library="rcl" deviceset="CPOL-EU" device="E2-5" value="10u/35V"/>
+<part name="C10" library="rcl" deviceset="CPOL-EU" device="E2-5" value="22u/25V"/>
 <part name="J5" library="con-malina" deviceset="WEBP6-4" device="_SHORT" value="WEBP6-4">
 <variant name="slave" populate="no"/>
 </part>
