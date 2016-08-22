@@ -15921,7 +15921,9 @@ by R. Vogg  15.March.2002</description>
 <part name="LED5" library="led" deviceset="LED" device="3MM"/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
 <part name="GND13" library="supply1" deviceset="GNDINT" device=""/>
-<part name="R13" library="rcl" deviceset="R-EU_" device="R1206" value="22R"/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="R1206" value="22R">
+<variant name="master" value="0R"/>
+</part>
 <part name="VDD4" library="supply1" deviceset="VDD" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="IC3" library="my" deviceset="MCP130T" device=""/>
