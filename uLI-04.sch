@@ -87,31 +87,6 @@
 Various connectors from GM and SOS
 &lt;p&gt;&lt;author&gt;Created by Michal Petrilak&lt;/author&gt;</description>
 <packages>
-<package name="WEBP6-4">
-<wire x1="6.435" y1="-7.633" x2="6.435" y2="10.028" width="0.2032" layer="21"/>
-<wire x1="-4.064" y1="9.525" x2="-4.064" y2="7.874" width="0.2032" layer="21"/>
-<wire x1="5.461" y1="9.525" x2="5.461" y2="10.038" width="0.2032" layer="21"/>
-<wire x1="5.461" y1="10.038" x2="6.435" y2="10.038" width="0.2032" layer="21"/>
-<wire x1="-4.064" y1="7.874" x2="4.064" y2="7.874" width="0.2032" layer="21"/>
-<wire x1="-4.064" y1="7.874" x2="-4.064" y2="4.953" width="0.2032" layer="21"/>
-<wire x1="-6.435" y1="-7.633" x2="-6.435" y2="10.028" width="0.2032" layer="21"/>
-<wire x1="6.223" y1="-7.747" x2="-6.35" y2="-7.747" width="0.2032" layer="21"/>
-<wire x1="-4.064" y1="9.53" x2="-5.461" y2="9.525" width="0.2032" layer="21"/>
-<wire x1="-5.461" y1="9.525" x2="-5.461" y2="10.038" width="0.2032" layer="21"/>
-<wire x1="-5.461" y1="10.038" x2="-6.435" y2="10.038" width="0.2032" layer="21"/>
-<wire x1="4.064" y1="9.525" x2="4.064" y2="7.874" width="0.2032" layer="21"/>
-<wire x1="4.064" y1="9.53" x2="5.461" y2="9.525" width="0.2032" layer="21"/>
-<wire x1="4.064" y1="4.953" x2="-4.064" y2="4.953" width="0.2032" layer="21"/>
-<wire x1="4.064" y1="7.874" x2="4.064" y2="4.953" width="0.2032" layer="21"/>
-<pad name="3" x="0.635" y="6.35" drill="0.6" diameter="1.4224"/>
-<pad name="2" x="-0.635" y="8.89" drill="0.6" diameter="1.4224"/>
-<pad name="1" x="-1.905" y="6.35" drill="0.6" diameter="1.4224"/>
-<pad name="4" x="1.905" y="8.89" drill="0.6" diameter="1.4224"/>
-<text x="-7.366" y="-4.191" size="1.778" layer="25" rot="R90">&gt;NAME</text>
-<text x="8.89" y="-4.826" size="1.778" layer="27" rot="R90">&gt;VALUE</text>
-<hole x="-5.08" y="0" drill="3.2"/>
-<hole x="5.08" y="0" drill="3.2"/>
-</package>
 <package name="ARK1550/2">
 <wire x1="-2.45" y1="1.2" x2="5.95" y2="1.2" width="0.127" layer="21"/>
 <wire x1="5.95" y1="1.2" x2="5.95" y2="-8" width="0.127" layer="21"/>
@@ -130,32 +105,31 @@ Various connectors from GM and SOS
 <pad name="1" x="0" y="0" drill="1.2" diameter="2.1844" shape="octagon"/>
 <pad name="2" x="3.5" y="0" drill="1.2" diameter="2.1844" shape="octagon"/>
 </package>
-<package name="WEBP6-4_SHORT">
-<wire x1="6.435" y1="-2.553" x2="6.435" y2="10.028" width="0.2032" layer="21"/>
+<package name="WEBP6-6_SPEC2">
+<wire x1="6.6" y1="-2.92" x2="6.6" y2="10.028" width="0.2032" layer="21"/>
 <wire x1="-4.064" y1="9.525" x2="-4.064" y2="7.874" width="0.2032" layer="21"/>
 <wire x1="5.461" y1="9.525" x2="5.461" y2="10.038" width="0.2032" layer="21"/>
-<wire x1="5.461" y1="10.038" x2="6.435" y2="10.038" width="0.2032" layer="21"/>
+<wire x1="5.461" y1="10.038" x2="6.6" y2="10.038" width="0.2032" layer="21"/>
 <wire x1="-4.064" y1="7.874" x2="4.064" y2="7.874" width="0.2032" layer="21"/>
 <wire x1="-4.064" y1="7.874" x2="-4.064" y2="4.953" width="0.2032" layer="21"/>
-<wire x1="-6.435" y1="-2.553" x2="-6.435" y2="10.028" width="0.2032" layer="21"/>
-<wire x1="6.435" y1="-7.747" x2="-6.435" y2="-7.747" width="0.2032" layer="48"/>
+<wire x1="-6.6" y1="-2.92" x2="-6.6" y2="10.028" width="0.2032" layer="21"/>
 <wire x1="-4.064" y1="9.53" x2="-5.461" y2="9.525" width="0.2032" layer="21"/>
 <wire x1="-5.461" y1="9.525" x2="-5.461" y2="10.038" width="0.2032" layer="21"/>
-<wire x1="-5.461" y1="10.038" x2="-6.435" y2="10.038" width="0.2032" layer="21"/>
+<wire x1="-5.461" y1="10.038" x2="-6.6" y2="10.038" width="0.2032" layer="21"/>
 <wire x1="4.064" y1="9.525" x2="4.064" y2="7.874" width="0.2032" layer="21"/>
 <wire x1="4.064" y1="9.53" x2="5.461" y2="9.525" width="0.2032" layer="21"/>
 <wire x1="4.064" y1="4.953" x2="-4.064" y2="4.953" width="0.2032" layer="21"/>
 <wire x1="4.064" y1="7.874" x2="4.064" y2="4.953" width="0.2032" layer="21"/>
-<pad name="3" x="0.635" y="6.35" drill="0.6" diameter="1.4224"/>
-<pad name="2" x="-0.635" y="8.89" drill="0.6" diameter="1.4224"/>
-<pad name="1" x="-1.905" y="6.35" drill="0.6" diameter="1.4224"/>
-<pad name="4" x="1.905" y="8.89" drill="0.6" diameter="1.4224"/>
-<text x="-7.366" y="-2.286" size="1.778" layer="25" rot="R90">&gt;NAME</text>
-<text x="8.89" y="-2.286" size="1.778" layer="27" rot="R90">&gt;VALUE</text>
+<pad name="4" x="0.635" y="6.35" drill="0.6" diameter="1.4" rot="R270"/>
+<pad name="3" x="-0.635" y="8.89" drill="0.6" diameter="1.4" rot="R270"/>
+<pad name="2" x="-1.905" y="6.35" drill="0.6" diameter="1.4" rot="R270"/>
+<pad name="5" x="1.905" y="8.89" drill="0.6" diameter="1.4" rot="R270"/>
+<pad name="1" x="-3.175" y="8.89" drill="0.6" diameter="1.4" rot="R270"/>
+<pad name="6" x="3.175" y="6.35" drill="0.6" diameter="1.4" rot="R270"/>
+<text x="-7.366" y="-1.651" size="1.778" layer="25" rot="R90">&gt;NAME</text>
+<text x="8.89" y="-1.016" size="1.778" layer="27" rot="R90">&gt;VALUE</text>
 <hole x="-5.08" y="0" drill="3.2"/>
 <hole x="5.08" y="0" drill="3.2"/>
-<wire x1="-6.435" y1="-2.553" x2="-6.435" y2="-7.747" width="0.2032" layer="48"/>
-<wire x1="6.435" y1="-2.553" x2="6.435" y2="-7.747" width="0.2032" layer="48"/>
 </package>
 <package name="ARK1550/2_SPEC">
 <wire x1="-2.45" y1="1.2" x2="5.95" y2="1.2" width="0.127" layer="21"/>
@@ -183,9 +157,132 @@ Various connectors from GM and SOS
 <wire x1="5.25" y1="-2.92" x2="5.25" y2="-8" width="0.127" layer="48"/>
 <wire x1="1.75" y1="-2.92" x2="1.75" y2="-8" width="0.127" layer="48"/>
 </package>
+<package name="WEBP6-6">
+<wire x1="6.6" y1="-8" x2="6.6" y2="10.028" width="0.2032" layer="21"/>
+<wire x1="-4.064" y1="9.525" x2="-4.064" y2="7.874" width="0.2032" layer="21"/>
+<wire x1="5.461" y1="9.525" x2="5.461" y2="10.038" width="0.2032" layer="21"/>
+<wire x1="5.461" y1="10.038" x2="6.6" y2="10.038" width="0.2032" layer="21"/>
+<wire x1="-4.064" y1="7.874" x2="4.064" y2="7.874" width="0.2032" layer="21"/>
+<wire x1="-4.064" y1="7.874" x2="-4.064" y2="4.953" width="0.2032" layer="21"/>
+<wire x1="-6.6" y1="-8" x2="-6.6" y2="10.028" width="0.2032" layer="21"/>
+<wire x1="6.6" y1="-8" x2="-6.6" y2="-8" width="0.2032" layer="21"/>
+<wire x1="-4.064" y1="9.53" x2="-5.461" y2="9.525" width="0.2032" layer="21"/>
+<wire x1="-5.461" y1="9.525" x2="-5.461" y2="10.038" width="0.2032" layer="21"/>
+<wire x1="-5.461" y1="10.038" x2="-6.6" y2="10.038" width="0.2032" layer="21"/>
+<wire x1="4.064" y1="9.525" x2="4.064" y2="7.874" width="0.2032" layer="21"/>
+<wire x1="4.064" y1="9.53" x2="5.461" y2="9.525" width="0.2032" layer="21"/>
+<wire x1="4.064" y1="4.953" x2="-4.064" y2="4.953" width="0.2032" layer="21"/>
+<wire x1="4.064" y1="7.874" x2="4.064" y2="4.953" width="0.2032" layer="21"/>
+<pad name="4" x="0.635" y="6.35" drill="0.6" diameter="1.4"/>
+<pad name="3" x="-0.635" y="8.89" drill="0.6" diameter="1.4"/>
+<pad name="2" x="-1.905" y="6.35" drill="0.6" diameter="1.4"/>
+<pad name="5" x="1.905" y="8.89" drill="0.6" diameter="1.4"/>
+<pad name="1" x="-3.175" y="8.89" drill="0.6" diameter="1.4"/>
+<pad name="6" x="3.175" y="6.35" drill="0.6" diameter="1.4"/>
+<text x="-7.366" y="-4.191" size="1.778" layer="25" rot="R90">&gt;NAME</text>
+<text x="8.89" y="-4.826" size="1.778" layer="27" rot="R90">&gt;VALUE</text>
+<hole x="-5.08" y="0" drill="3.2"/>
+<hole x="5.08" y="0" drill="3.2"/>
+</package>
+<package name="WEBP6-6_180">
+<wire x1="6.731" y1="-6.35" x2="6.731" y2="-3.81" width="0.2032" layer="21"/>
+<wire x1="6.731" y1="-3.81" x2="6.731" y2="6.985" width="0.2032" layer="21"/>
+<wire x1="6.731" y1="6.985" x2="6.731" y2="9.525" width="0.2032" layer="21"/>
+<wire x1="6.731" y1="9.525" x2="6.731" y2="10.033" width="0.2032" layer="21"/>
+<wire x1="-6.731" y1="-6.35" x2="-6.731" y2="-3.81" width="0.2032" layer="21"/>
+<wire x1="-6.731" y1="-3.81" x2="-6.731" y2="6.985" width="0.2032" layer="21"/>
+<wire x1="-6.731" y1="6.985" x2="-6.731" y2="9.525" width="0.2032" layer="21"/>
+<wire x1="-6.731" y1="9.525" x2="-6.731" y2="10.033" width="0.2032" layer="21"/>
+<wire x1="6.731" y1="-6.35" x2="-6.731" y2="-6.35" width="0.2032" layer="21"/>
+<wire x1="6.731" y1="10.033" x2="-6.731" y2="10.033" width="0.2032" layer="21"/>
+<wire x1="6.731" y1="9.525" x2="-6.731" y2="9.525" width="0.2032" layer="21"/>
+<wire x1="-7.8105" y1="-3.81" x2="-7.8105" y2="6.985" width="0.2032" layer="21"/>
+<wire x1="7.8105" y1="-3.81" x2="7.8105" y2="6.985" width="0.2032" layer="21"/>
+<wire x1="-7.8105" y1="6.985" x2="-6.731" y2="6.985" width="0.2032" layer="21"/>
+<wire x1="7.8105" y1="6.985" x2="6.731" y2="6.985" width="0.2032" layer="21"/>
+<wire x1="-7.8105" y1="-3.81" x2="-6.731" y2="-3.81" width="0.2032" layer="21"/>
+<wire x1="7.8105" y1="-3.81" x2="6.731" y2="-3.81" width="0.2032" layer="21"/>
+<wire x1="-5.731" y1="8.525" x2="5.731" y2="8.525" width="2" layer="146"/>
+<wire x1="5.731" y1="8.525" x2="5.731" y2="-5.35" width="2" layer="146"/>
+<wire x1="5.731" y1="-5.35" x2="-5.731" y2="-5.35" width="2" layer="146"/>
+<wire x1="-5.731" y1="-5.35" x2="-5.731" y2="8.525" width="2" layer="146"/>
+<pad name="4" x="0.635" y="6.35" drill="0.6" diameter="1.4224"/>
+<pad name="3" x="-0.635" y="8.89" drill="0.6" diameter="1.4224"/>
+<pad name="2" x="-1.905" y="6.35" drill="0.6" diameter="1.4224"/>
+<pad name="5" x="1.905" y="8.89" drill="0.6" diameter="1.4224"/>
+<pad name="1" x="-3.175" y="8.89" drill="0.6" diameter="1.4224"/>
+<pad name="6" x="3.175" y="6.35" drill="0.6" diameter="1.4224"/>
+<text x="-2.921" y="2.286" size="1.778" layer="25">&gt;NAME</text>
+<text x="-4.826" y="-5.08" size="1.778" layer="27">&gt;VALUE</text>
+<hole x="-5.08" y="0" drill="3.1"/>
+<hole x="5.08" y="0" drill="3.1"/>
+</package>
+<package name="WEBP6-6_180_SPEC">
+<wire x1="6.731" y1="-6.35" x2="6.731" y2="-3.81" width="0.2032" layer="21"/>
+<wire x1="6.731" y1="-3.81" x2="6.731" y2="6.985" width="0.2032" layer="21"/>
+<wire x1="6.731" y1="6.985" x2="6.731" y2="9.525" width="0.2032" layer="21"/>
+<wire x1="6.731" y1="9.525" x2="6.731" y2="10.033" width="0.2032" layer="21"/>
+<wire x1="-6.731" y1="-6.35" x2="-6.731" y2="-3.81" width="0.2032" layer="21"/>
+<wire x1="-6.731" y1="-3.81" x2="-6.731" y2="6.985" width="0.2032" layer="21"/>
+<wire x1="-6.731" y1="6.985" x2="-6.731" y2="9.525" width="0.2032" layer="21"/>
+<wire x1="-6.731" y1="9.525" x2="-6.731" y2="10.033" width="0.2032" layer="21"/>
+<wire x1="6.731" y1="-6.35" x2="-6.731" y2="-6.35" width="0.2032" layer="21"/>
+<wire x1="6.731" y1="10.033" x2="-6.731" y2="10.033" width="0.2032" layer="21"/>
+<wire x1="6.731" y1="9.525" x2="-6.731" y2="9.525" width="0.2032" layer="21"/>
+<wire x1="-7.8105" y1="-3.81" x2="-7.8105" y2="6.985" width="0.2032" layer="21"/>
+<wire x1="7.8105" y1="-3.81" x2="7.8105" y2="6.985" width="0.2032" layer="21"/>
+<wire x1="-7.8105" y1="6.985" x2="-6.731" y2="6.985" width="0.2032" layer="21"/>
+<wire x1="7.8105" y1="6.985" x2="6.731" y2="6.985" width="0.2032" layer="21"/>
+<wire x1="-7.8105" y1="-3.81" x2="-6.731" y2="-3.81" width="0.2032" layer="21"/>
+<wire x1="7.8105" y1="-3.81" x2="6.731" y2="-3.81" width="0.2032" layer="21"/>
+<wire x1="-5.731" y1="8.525" x2="5.731" y2="8.525" width="2" layer="146"/>
+<wire x1="5.731" y1="8.525" x2="5.731" y2="-5.35" width="2" layer="146"/>
+<wire x1="5.731" y1="-5.35" x2="-5.731" y2="-5.35" width="2" layer="146"/>
+<wire x1="-5.731" y1="-5.35" x2="-5.731" y2="8.525" width="2" layer="146"/>
+<pad name="4" x="0.635" y="6.35" drill="0.6" diameter="1.2" shape="long" rot="R90"/>
+<pad name="3" x="-0.635" y="8.89" drill="0.6" diameter="1.2" shape="long" rot="R90"/>
+<pad name="2" x="-1.905" y="6.35" drill="0.6" diameter="1.2" shape="long" rot="R90"/>
+<pad name="5" x="1.905" y="8.89" drill="0.6" diameter="1.2" shape="long" rot="R90"/>
+<pad name="1" x="-3.175" y="8.89" drill="0.6" diameter="1.2" shape="long" rot="R90"/>
+<pad name="6" x="3.175" y="6.35" drill="0.6" diameter="1.2" shape="long" rot="R90"/>
+<text x="-2.921" y="2.286" size="1.778" layer="25">&gt;NAME</text>
+<text x="-4.826" y="-5.08" size="1.778" layer="27">&gt;VALUE</text>
+<hole x="-5.08" y="0" drill="3.1"/>
+<hole x="5.08" y="0" drill="3.1"/>
+</package>
+<package name="WEBP6-6_SPEC">
+<wire x1="6.6" y1="-8" x2="6.6" y2="10.028" width="0.2032" layer="21"/>
+<wire x1="-4.064" y1="9.525" x2="-4.064" y2="7.874" width="0.2032" layer="21"/>
+<wire x1="5.461" y1="9.525" x2="5.461" y2="10.038" width="0.2032" layer="21"/>
+<wire x1="5.461" y1="10.038" x2="6.6" y2="10.038" width="0.2032" layer="21"/>
+<wire x1="-4.064" y1="7.874" x2="4.064" y2="7.874" width="0.2032" layer="21"/>
+<wire x1="-4.064" y1="7.874" x2="-4.064" y2="4.953" width="0.2032" layer="21"/>
+<wire x1="-6.6" y1="-8" x2="-6.6" y2="10.028" width="0.2032" layer="21"/>
+<wire x1="6.6" y1="-8" x2="-6.6" y2="-8" width="0.2032" layer="21"/>
+<wire x1="-4.064" y1="9.53" x2="-5.461" y2="9.525" width="0.2032" layer="21"/>
+<wire x1="-5.461" y1="9.525" x2="-5.461" y2="10.038" width="0.2032" layer="21"/>
+<wire x1="-5.461" y1="10.038" x2="-6.6" y2="10.038" width="0.2032" layer="21"/>
+<wire x1="4.064" y1="9.525" x2="4.064" y2="7.874" width="0.2032" layer="21"/>
+<wire x1="4.064" y1="9.53" x2="5.461" y2="9.525" width="0.2032" layer="21"/>
+<wire x1="4.064" y1="4.953" x2="-4.064" y2="4.953" width="0.2032" layer="21"/>
+<wire x1="4.064" y1="7.874" x2="4.064" y2="4.953" width="0.2032" layer="21"/>
+<pad name="4" x="0.635" y="6.35" drill="0.6" diameter="1.2" shape="offset" rot="R270"/>
+<pad name="3" x="-0.635" y="8.89" drill="0.6" diameter="1.2" shape="offset" rot="R270"/>
+<pad name="2" x="-1.905" y="6.35" drill="0.6" diameter="1.2" shape="offset" rot="R270"/>
+<pad name="5" x="1.905" y="8.89" drill="0.6" diameter="1.2" shape="offset" rot="R270"/>
+<pad name="1" x="-3.175" y="8.89" drill="0.6" diameter="1.2" shape="offset" rot="R270"/>
+<pad name="6" x="3.175" y="6.35" drill="0.6" diameter="1.2" shape="offset" rot="R270"/>
+<text x="-7.366" y="-4.191" size="1.778" layer="25" rot="R90">&gt;NAME</text>
+<text x="8.89" y="-4.826" size="1.778" layer="27" rot="R90">&gt;VALUE</text>
+<hole x="-5.08" y="0" drill="3.2"/>
+<hole x="5.08" y="0" drill="3.2"/>
+</package>
 </packages>
 <symbols>
-<symbol name="RJ6-4">
+<symbol name="RJ6-6">
+<wire x1="1.524" y1="5.588" x2="0" y2="5.588" width="0.254" layer="94"/>
+<wire x1="0" y1="5.588" x2="0" y2="4.572" width="0.254" layer="94"/>
+<wire x1="0" y1="4.572" x2="1.524" y2="4.572" width="0.254" layer="94"/>
 <wire x1="1.524" y1="3.048" x2="0" y2="3.048" width="0.254" layer="94"/>
 <wire x1="0" y1="3.048" x2="0" y2="2.032" width="0.254" layer="94"/>
 <wire x1="0" y1="2.032" x2="1.524" y2="2.032" width="0.254" layer="94"/>
@@ -198,6 +295,9 @@ Various connectors from GM and SOS
 <wire x1="1.524" y1="-4.572" x2="0" y2="-4.572" width="0.254" layer="94"/>
 <wire x1="0" y1="-4.572" x2="0" y2="-5.588" width="0.254" layer="94"/>
 <wire x1="0" y1="-5.588" x2="1.524" y2="-5.588" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-7.112" x2="0" y2="-7.112" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.112" x2="0" y2="-8.128" width="0.254" layer="94"/>
+<wire x1="0" y1="-8.128" x2="1.524" y2="-8.128" width="0.254" layer="94"/>
 <wire x1="3.048" y1="-3.556" x2="5.588" y2="-3.556" width="0.1998" layer="94"/>
 <wire x1="5.588" y1="-3.556" x2="5.588" y2="-2.286" width="0.1998" layer="94"/>
 <wire x1="5.588" y1="-2.286" x2="6.604" y2="-2.286" width="0.1998" layer="94"/>
@@ -218,12 +318,14 @@ Various connectors from GM and SOS
 <wire x1="3.048" y1="-1.524" x2="3.81" y2="-1.524" width="0.1998" layer="94"/>
 <wire x1="3.048" y1="-2.032" x2="3.81" y2="-2.032" width="0.1998" layer="94"/>
 <wire x1="3.048" y1="-2.54" x2="3.81" y2="-2.54" width="0.1998" layer="94"/>
-<text x="-2.54" y="4.318" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-8.128" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-10.668" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
 <pin name="3" x="-2.54" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
 <pin name="4" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
 <pin name="5" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="6" x="-2.54" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 <symbol name="ARK2">
 <wire x1="0" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
@@ -233,28 +335,71 @@ Various connectors from GM and SOS
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="WEBP6-4" prefix="J">
+<deviceset name="WEBP6-6" prefix="J">
 <gates>
-<gate name="A" symbol="RJ6-4" x="0" y="0"/>
+<gate name="A" symbol="RJ6-6" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="WEBP6-4">
+<device name="" package="WEBP6-6">
 <connects>
-<connect gate="A" pin="2" pad="1"/>
-<connect gate="A" pin="3" pad="2"/>
-<connect gate="A" pin="4" pad="3"/>
-<connect gate="A" pin="5" pad="4"/>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+<connect gate="A" pin="5" pad="5"/>
+<connect gate="A" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="_SHORT" package="WEBP6-4_SHORT">
+<device name="_180" package="WEBP6-6_180">
 <connects>
-<connect gate="A" pin="2" pad="1"/>
-<connect gate="A" pin="3" pad="2"/>
-<connect gate="A" pin="4" pad="3"/>
-<connect gate="A" pin="5" pad="4"/>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+<connect gate="A" pin="5" pad="5"/>
+<connect gate="A" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_180_SPEC" package="WEBP6-6_180_SPEC">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+<connect gate="A" pin="5" pad="5"/>
+<connect gate="A" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SPEC" package="WEBP6-6_SPEC">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+<connect gate="A" pin="5" pad="5"/>
+<connect gate="A" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="_SPEC2" package="WEBP6-6_SPEC2">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+<connect gate="A" pin="5" pad="5"/>
+<connect gate="A" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15908,13 +16053,13 @@ by R. Vogg  15.March.2002</description>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R1206" value="100k"/>
 <part name="T1" library="transistor-fet" deviceset="IRF7306" device=""/>
 <part name="C10" library="rcl" deviceset="CPOL-EU" device="E2-5" value="22u/25V"/>
-<part name="J5" library="con-malina" deviceset="WEBP6-4" device="_SHORT" value="WEBP6-4">
+<part name="J5" library="con-malina" deviceset="WEBP6-6" device="_SPEC2" value="WEBP6">
 <variant name="slave" populate="no"/>
 </part>
-<part name="J6" library="con-malina" deviceset="WEBP6-4" device="_SHORT" value="WEBP6-4">
+<part name="J6" library="con-malina" deviceset="WEBP6-6" device="_SPEC2" value="WEBP6">
 <variant name="slave" populate="no"/>
 </part>
-<part name="J7" library="con-malina" deviceset="WEBP6-4" device="_SHORT" value="WEBP6-4">
+<part name="J7" library="con-malina" deviceset="WEBP6-6" device="_SPEC2" value="WEBP6">
 <variant name="master" populate="no"/>
 </part>
 <part name="X2" library="con-malina" deviceset="ARK1550/2" device="_S" value="ARK1550/2_S"/>
@@ -16340,6 +16485,42 @@ by R. Vogg  15.March.2002</description>
 <wire x1="154.94" y1="88.9" x2="154.94" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="RB5/AN11/DT/RX"/>
 <wire x1="154.94" y1="78.74" x2="175.26" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="1">
+<segment>
+<pinref part="J6" gate="A" pin="6"/>
+<wire x1="25.4" y1="106.68" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="1">
+<segment>
+<pinref part="J6" gate="A" pin="1"/>
+<wire x1="25.4" y1="93.98" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="1">
+<segment>
+<pinref part="J5" gate="A" pin="6"/>
+<wire x1="25.4" y1="86.36" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="1">
+<segment>
+<pinref part="J5" gate="A" pin="1"/>
+<wire x1="25.4" y1="73.66" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="1">
+<segment>
+<pinref part="J7" gate="A" pin="6"/>
+<wire x1="25.4" y1="66.04" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="1">
+<segment>
+<pinref part="J7" gate="A" pin="1"/>
+<wire x1="25.4" y1="53.34" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
