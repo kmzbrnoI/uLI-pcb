@@ -15984,7 +15984,7 @@ by R. Vogg  15.March.2002</description>
 </libraries>
 <attributes>
 <attribute name="AUTHOR" value="M. Petrilak, J. Horacek"/>
-<attribute name="VERSION" value="04 r2"/>
+<attribute name="VERSION" value="04 r3"/>
 </attributes>
 <variantdefs>
 <variantdef name="master"/>
