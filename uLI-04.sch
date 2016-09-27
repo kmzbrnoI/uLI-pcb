@@ -16072,6 +16072,8 @@ by R. Vogg  15.March.2002</description>
 <part name="VDD4" library="supply1" deviceset="VDD" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="IC3" library="my" deviceset="MCP130T" device=""/>
+<part name="R12" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
+<part name="GND15" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16116,6 +16118,8 @@ by R. Vogg  15.March.2002</description>
 <instance part="J5" gate="A" x="22.86" y="78.74" rot="R180"/>
 <instance part="J6" gate="A" x="22.86" y="99.06" rot="R180"/>
 <instance part="J7" gate="A" x="22.86" y="58.42" rot="R180"/>
+<instance part="R12" gate="G$1" x="147.32" y="134.62" rot="R90"/>
+<instance part="GND15" gate="1" x="147.32" y="127"/>
 </instances>
 <busses>
 </busses>
@@ -16169,6 +16173,10 @@ by R. Vogg  15.March.2002</description>
 <junction x="165.1" y="40.64"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="165.1" y1="35.56" x2="165.1" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
@@ -16368,8 +16376,14 @@ by R. Vogg  15.March.2002</description>
 <net name="PGM" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="RC3/P1C/AN7/PGM"/>
-<wire x1="175.26" y1="96.52" x2="172.72" y2="96.52" width="0.1524" layer="91"/>
-<label x="172.72" y="96.52" size="1.27" layer="95" font="vector" ratio="12" rot="MR0" xref="yes"/>
+<label x="152.4" y="144.78" size="1.27" layer="95" font="vector" ratio="12" rot="MR90" xref="yes"/>
+<wire x1="175.26" y1="96.52" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="96.52" x2="152.4" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="142.24" x2="152.4" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="142.24" x2="147.32" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="142.24" x2="147.32" y2="139.7" width="0.1524" layer="91"/>
+<junction x="152.4" y="142.24"/>
 </segment>
 </net>
 <net name="!MCLR" class="0">
