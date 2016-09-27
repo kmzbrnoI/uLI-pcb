@@ -9,7 +9,8 @@ uLI is XpressNET &#8596; USB convertor behaving as COM port in PC (CDC).
 
 ## Firmware
 
-* [uLI-02](https://github.com/kmzbrnoI/uLI-fw)
+* [uLI-fw](https://github.com/kmzbrnoI/uLI-fw)
+* [uLI-master-fw](https://github.com/kmzbrnoI/uLI-master-fw)
 
 ## Further reading
 
