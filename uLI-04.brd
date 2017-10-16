@@ -1788,7 +1788,7 @@ by R. Vogg  15.March.2002</description>
 </attributes>
 <variantdefs>
 <variantdef name="master"/>
-<variantdef name="slave"/>
+<variantdef name="slave" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0.3" drill="0">
@@ -2042,15 +2042,15 @@ Určeno pro kreslení a export výrobních dat</description>
 <attribute name="NAME" x="11.51" y="17.2525" size="1.27" layer="26" font="vector" ratio="15" rot="MR180"/>
 <attribute name="VALUE" x="9.7525" y="14.5375" size="1.27" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
-<element name="OK1" library="optocoupler" package="DIL04" value="PC817" x="30.7975" y="31.115" smashed="yes" rot="R90">
+<element name="OK1" library="optocoupler" package="DIL04" value="PC817" x="30.7975" y="31.115" populate="no" smashed="yes" rot="R90">
 <attribute name="VALUE" x="30.7975" y="33.306" size="1.27" layer="27" ratio="15" rot="R180" align="bottom-center"/>
 <attribute name="NAME" x="30.7975" y="33.194" size="1.27" layer="25" ratio="15" rot="R180" align="bottom-center"/>
 </element>
-<element name="R1" library="rcl" package="R1206" value="1k" x="38.735" y="31.4325" smashed="yes" rot="R90">
+<element name="R1" library="rcl" package="R1206" value="1k" x="38.735" y="31.4325" populate="no" smashed="yes" rot="R90">
 <attribute name="NAME" x="37.7825" y="33.9725" size="1.27" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="39.9375" y="28.775" size="1.27" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="R2" library="rcl" package="R1206" value="100k" x="21.59" y="20.955" smashed="yes" rot="R270">
+<element name="R2" library="rcl" package="R1206" value="100k" x="21.59" y="20.955" populate="no" smashed="yes" rot="R270">
 <attribute name="NAME" x="20.32" y="21.59" size="1.27" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="19.05" y="22.225" size="1.27" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
@@ -2070,11 +2070,11 @@ Určeno pro kreslení a export výrobních dat</description>
 <attribute name="NAME" x="40.961" y="33.509" size="1.27" layer="26" font="vector" ratio="15" rot="MR270"/>
 <attribute name="VALUE" x="39.751" y="31.091" size="1.27" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
-<element name="OK2" library="optocoupler" package="DIL04" value="PC817" x="30.7975" y="36.83" smashed="yes" rot="R270">
+<element name="OK2" library="optocoupler" package="DIL04" value="PC817" x="30.7975" y="36.83" populate="no" smashed="yes" rot="R270">
 <attribute name="VALUE" x="30.7975" y="34.639" size="1.27" layer="27" ratio="15" align="bottom-center"/>
 <attribute name="NAME" x="30.7975" y="34.751" size="1.27" layer="25" ratio="15" align="bottom-center"/>
 </element>
-<element name="R9" library="rcl" package="R1206" value="1k" x="26.3525" y="26.3525" smashed="yes" rot="R270">
+<element name="R9" library="rcl" package="R1206" value="1k" x="26.3525" y="26.3525" populate="no" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.6225" y="26.6225" size="1.27" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="23.8125" y="27.6225" size="1.27" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
@@ -2084,10 +2084,10 @@ Určeno pro kreslení a export výrobních dat</description>
 <attribute name="NAME" x="47.927" y="35.3615" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="45.339" y="34.0195" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="J5" library="con-malina" package="WEBP6-6_SPEC2" value="WEBP6" x="44.7675" y="5.08" smashed="yes">
+<element name="J5" library="con-malina" package="WEBP6-6_SPEC2" value="WEBP6" x="44.7675" y="5.08" populate="no" smashed="yes">
 <attribute name="NAME" x="44.4015" y="3.389" size="1.778" layer="25" rot="R90"/>
 </element>
-<element name="J6" library="con-malina" package="WEBP6-6_SPEC2" value="WEBP6" x="31.115" y="5.08" smashed="yes">
+<element name="J6" library="con-malina" package="WEBP6-6_SPEC2" value="WEBP6" x="31.115" y="5.08" populate="no" smashed="yes">
 <attribute name="NAME" x="30.249" y="3.389" size="1.778" layer="25" rot="R90"/>
 </element>
 <element name="J7" library="con-malina" package="WEBP6-6_SPEC2" value="WEBP6" x="55.88" y="21.2725" smashed="yes" rot="R90">

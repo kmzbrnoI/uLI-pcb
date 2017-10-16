@@ -15988,7 +15988,7 @@ by R. Vogg  15.March.2002</description>
 </attributes>
 <variantdefs>
 <variantdef name="master"/>
-<variantdef name="slave"/>
+<variantdef name="slave" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0.3" drill="0">
@@ -16031,11 +16031,17 @@ by R. Vogg  15.March.2002</description>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GNDINT" device=""/>
-<part name="OK1" library="optocoupler" deviceset="PC817" device=""/>
+<part name="OK1" library="optocoupler" deviceset="PC817" device="">
+<variant name="slave" populate="no"/>
+</part>
 <part name="GND11" library="supply1" deviceset="GNDINT" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="1k"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="1k">
+<variant name="slave" populate="no"/>
+</part>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="100k"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="100k">
+<variant name="slave" populate="no"/>
+</part>
 <part name="VDD2" library="supply1" deviceset="VDD" device=""/>
 <part name="J1" library="con-molex" deviceset="PICPROG2" device="-V"/>
 <part name="LED4" library="led" deviceset="LED" device="3MM" value="BLUE 2mA"/>
