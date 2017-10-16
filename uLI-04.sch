@@ -16023,9 +16023,9 @@ by R. Vogg  15.March.2002</description>
 <part name="R4" library="rcl" deviceset="R-EU_" device="R1206" value="100k"/>
 <part name="GND8" library="supply1" deviceset="GNDINT" device=""/>
 <part name="VCC3" library="supply1" deviceset="VCCINT" device=""/>
-<part name="LED1" library="led" deviceset="LED" device="3MM" value="D3"/>
-<part name="LED2" library="led" deviceset="LED" device="3MM"/>
-<part name="LED3" library="led" deviceset="LED" device="3MM"/>
+<part name="LED1" library="led" deviceset="LED" device="3MM" value="YELLOW 2mA"/>
+<part name="LED2" library="led" deviceset="LED" device="3MM" value="GREEN 2mA"/>
+<part name="LED3" library="led" deviceset="LED" device="3MM" value="GREEN 2mA"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
@@ -16038,7 +16038,7 @@ by R. Vogg  15.March.2002</description>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="100k"/>
 <part name="VDD2" library="supply1" deviceset="VDD" device=""/>
 <part name="J1" library="con-molex" deviceset="PICPROG2" device="-V"/>
-<part name="LED4" library="led" deviceset="LED" device="3MM"/>
+<part name="LED4" library="led" deviceset="LED" device="3MM" value="BLUE 2mA"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
 <part name="IC2" library="my" deviceset="ADM2483" device=""/>
 <part name="D2" library="diode" deviceset="S2M" device=""/>
@@ -16063,7 +16063,7 @@ by R. Vogg  15.March.2002</description>
 <variant name="master" populate="no"/>
 </part>
 <part name="X2" library="con-malina" deviceset="ARK1550/2" device="_S" value="ARK1550/2_S"/>
-<part name="LED5" library="led" deviceset="LED" device="3MM"/>
+<part name="LED5" library="led" deviceset="LED" device="3MM" value="RED 2mA"/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
 <part name="GND13" library="supply1" deviceset="GNDINT" device=""/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R1206" value="22R">
