@@ -16044,10 +16044,16 @@ by R. Vogg  15.March.2002</description>
 </part>
 <part name="VDD2" library="supply1" deviceset="VDD" device=""/>
 <part name="J1" library="con-molex" deviceset="PICPROG2" device="-V"/>
-<part name="LED4" library="led" deviceset="LED" device="3MM" value="BLUE 2mA"/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
+<part name="LED4" library="led" deviceset="LED" device="3MM" value="BLUE 2mA">
+<variant name="slave" populate="no"/>
+</part>
+<part name="R8" library="rcl" deviceset="R-EU_" device="R1206" value="10k">
+<variant name="slave" populate="no"/>
+</part>
 <part name="IC2" library="my" deviceset="ADM2483" device=""/>
-<part name="D2" library="diode" deviceset="S2M" device=""/>
+<part name="D2" library="diode" deviceset="S2M" device="">
+<variant name="slave" populate="no"/>
+</part>
 <part name="OK2" library="optocoupler" deviceset="PC817" device="">
 <variant name="slave" populate="no"/>
 </part>
@@ -16068,7 +16074,9 @@ by R. Vogg  15.March.2002</description>
 <part name="J7" library="con-malina" deviceset="WEBP6-6" device="_SPEC2" value="WEBP6">
 <variant name="master" populate="no"/>
 </part>
-<part name="X2" library="con-malina" deviceset="ARK1550/2" device="_S" value="ARK1550/2_S"/>
+<part name="X2" library="con-malina" deviceset="ARK1550/2" device="_S" value="ARK1550/2_S">
+<variant name="slave" populate="no"/>
+</part>
 <part name="LED5" library="led" deviceset="LED" device="3MM" value="RED 2mA"/>
 <part name="R11" library="rcl" deviceset="R-EU_" device="R1206" value="10k"/>
 <part name="GND13" library="supply1" deviceset="GNDINT" device=""/>

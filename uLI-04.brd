@@ -2057,16 +2057,16 @@ Určeno pro kreslení a export výrobních dat</description>
 <element name="J1" library="con-molex" package="6410-06-PICPROG" value="PICPROG2-V" x="16.9625" y="36.5125" smashed="yes">
 <attribute name="NAME" x="10.8425" y="33.02" size="1.27" layer="25" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 </element>
-<element name="LED4" library="led" package="LED3MM" value="BLUE 2mA" x="54.9275" y="30.1625" smashed="yes" rot="MR180">
+<element name="LED4" library="led" package="LED3MM" value="BLUE 2mA" x="54.9275" y="30.1625" populate="no" smashed="yes" rot="MR180">
 <attribute name="NAME" x="57.06" y="30.4275" size="1.27" layer="26" ratio="15" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="54.9275" y="33.9725" size="1.27" layer="28" ratio="15" rot="MR180" align="bottom-center"/>
 </element>
-<element name="R8" library="rcl" package="R1206" value="10k" x="48.26" y="34.6075" smashed="yes" rot="MR0">
+<element name="R8" library="rcl" package="R1206" value="10k" x="48.26" y="34.6075" populate="no" smashed="yes" rot="MR0">
 <attribute name="NAME" x="49.23" y="36.095" size="1.27" layer="26" font="vector" ratio="15" rot="MR0"/>
 <attribute name="VALUE" x="49.53" y="36.0675" size="1.27" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
 <element name="IC2" library="my" package="SO-16W" value="ADM2483" x="30.7975" y="23.8125" rot="MR90"/>
-<element name="D2" library="diode" package="SMB" value="S2M" x="43.18" y="32.25" smashed="yes" rot="MR90">
+<element name="D2" library="diode" package="SMB" value="S2M" x="43.18" y="32.25" populate="no" smashed="yes" rot="MR90">
 <attribute name="NAME" x="40.961" y="33.509" size="1.27" layer="26" font="vector" ratio="15" rot="MR270"/>
 <attribute name="VALUE" x="39.751" y="31.091" size="1.27" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
@@ -2093,7 +2093,7 @@ Určeno pro kreslení a export výrobních dat</description>
 <element name="J7" library="con-malina" package="WEBP6-6_SPEC2" value="WEBP6" x="55.88" y="21.2725" smashed="yes" rot="R90">
 <attribute name="NAME" x="58.071" y="20.4065" size="1.778" layer="25" rot="R180"/>
 </element>
-<element name="X2" library="con-malina" package="ARK1550/2_SPEC" value="ARK1550/2_S" x="43.18" y="37.1475" smashed="yes" rot="R180"/>
+<element name="X2" library="con-malina" package="ARK1550/2_SPEC" value="ARK1550/2_S" x="43.18" y="37.1475" populate="no" smashed="yes" rot="R180"/>
 <element name="LED5" library="led" package="LED3MM" value="RED 2mA" x="54.9275" y="12.065" smashed="yes" rot="MR270">
 <attribute name="NAME" x="58.3875" y="12.065" size="1.27" layer="26" ratio="15" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="58.7375" y="12.065" size="1.27" layer="28" ratio="15" rot="MR270" align="bottom-center"/>
