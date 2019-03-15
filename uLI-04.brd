@@ -2120,7 +2120,7 @@ Určeno pro kreslení a export výrobních dat</description>
 <attribute name="NAME" x="45.07" y="32.67" size="1.27" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="44.76" y="33.17" size="1.27" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="IC3" library="my" package="SOT23" value="MCP130T" x="25.7" y="21.5" smashed="yes" rot="R180">
+<element name="IC3" library="my" package="SOT23" value="MCP130T-3V" x="25.7" y="21.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="31.105" y="22.595" size="1.27" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="29.175" y="16.895" size="1.27" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>

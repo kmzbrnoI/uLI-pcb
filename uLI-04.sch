@@ -16086,7 +16086,7 @@ by R. Vogg  15.March.2002</description>
 </part>
 <part name="VDD4" library="supply1" deviceset="VDD" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="IC3" library="my" deviceset="MCP130T" device=""/>
+<part name="IC3" library="my" deviceset="MCP130T" device="" value="MCP130T-3V"/>
 <part name="R12" library="rcl" deviceset="R-EU_" device="R1206" value="2k2"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 </parts>
