@@ -3,7 +3,7 @@ Ultimate LI printed circuit board.
 
 uLI is XpressNET &#8596; USB convertor behaving as COM port in PC (CDC).
 
-* Degined in: Eagle 7.2.0
+* Degined in: Eagle 9
 * Main Processor: PIC18F14K50
 * Authors: Jan Horacek, Michal Petrilak (c) 2016
 
