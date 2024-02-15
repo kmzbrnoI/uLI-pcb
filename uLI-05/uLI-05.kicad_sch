@@ -1,0 +1,25 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 78ef7769-d6f1-48f5-a16b-8d45b14bfe28)
+
+  (paper "A4")
+
+  (title_block
+    (title "uLI 05")
+    (date "2024-02-15")
+    (rev "5.0")
+    (company "Model Railroader Club Brno I – KMŽ Brno I – https://kmz-brno.cz/")
+    (comment 1 "Jan Horáček")
+    (comment 2 "https://github.com/kmzbrnoI/uLI-pcb https://uli.kmz-brno.cz/")
+    (comment 3 "https://creativecommons.org/licenses/by-sa/4.0/")
+    (comment 4 "Released under the Creative Commons Attribution-ShareAlike 4.0 License")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
