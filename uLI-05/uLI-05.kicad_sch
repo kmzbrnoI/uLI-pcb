@@ -4017,7 +4017,7 @@
     (property "Value" "12MHz" (at 38.735 89.6945 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Crystal:Crystal_HC49-U_Vertical" (at 38.735 93.98 0)
+    (property "Footprint" "Crystal:Crystal_HC49-4H_Vertical" (at 38.735 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 38.735 93.98 0)
