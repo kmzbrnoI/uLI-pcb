@@ -3566,6 +3566,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1bec5cbf-e023-41d7-acd2-0467fc038e94)
   )
+  (text "Place U1 on top for cooling." (at 193.675 19.05 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 43682d7a-7e7e-4af8-9c53-1dfa669b3d5a)
+  )
 
   (label "DE" (at 65.405 99.695 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
