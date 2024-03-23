@@ -6,8 +6,8 @@
 
   (title_block
     (title "uLI – Ultimate LI")
-    (date "2024-02-15")
-    (rev "5.0")
+    (date "2024-03-23")
+    (rev "5.1")
     (company "Model Railroader Club Brno I – KMŽ Brno I – https://kmz-brno.cz/")
     (comment 1 "Jan Horáček")
     (comment 2 "https://github.com/kmzbrnoI/uLI-pcb https://uli.kmz-brno.cz/")
